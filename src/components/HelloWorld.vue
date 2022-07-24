@@ -1,18 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+  import { ref } from 'vue'
+  import TokenInput from './TokenInput.vue'
 
-defineProps<{ msg: string }>()
+  defineProps<{ msg: string }>()
 
-const count = ref(0)
+  const count = ref(0)
 </script>
 
 <template>
-  <n-button>naive-ui</n-button>
-  <div>2HW</div>
+  <token-input />
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
+<style scoped></style>

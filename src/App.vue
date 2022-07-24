@@ -1,12 +1,7 @@
-<script setup lang="ts">
-
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <app-index />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

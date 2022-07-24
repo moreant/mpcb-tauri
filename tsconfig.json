@@ -23,7 +23,6 @@
     },
     "types": [
       "naive-ui/volar",
-      "pinia-plugin-persist"
     ]
   },
   "include": [

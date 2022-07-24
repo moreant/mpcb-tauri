@@ -6,17 +6,34 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix --ext .ts,.tsx",
     "preview": "vite preview",
     "tauri": "tauri"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.2",
+    "ali-oss": "^6.17.1",
+    "axios": "^0.27.2",
+    "qs": "^6.11.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.4",
+    "@types/ali-oss": "^6.16.4",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
     "@vitejs/plugin-vue": "^3.0.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.2.0",
+    "naive-ui": "^2.31.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.6.4",
+    "unplugin-auto-import": "^0.10.0",
+    "unplugin-vue-components": "^0.21.1",
     "vite": "^3.0.0",
     "vue-tsc": "^0.38.4"
   }
